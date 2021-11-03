@@ -52,7 +52,7 @@ const App = () => {
       setNumberToShow(operation(ageTemp))
     }
 
-    Alert.alert('LuckyNumber', `${name} your lucky number is: ${numberToShow}`, [{text: 'Ok'}]);
+    Alert.alert('LuckyNumber', `Welcome ${name} your lucky number is: ${numberToShow}`, [{text: 'Ok'}]);
   }
 
   //Programa
